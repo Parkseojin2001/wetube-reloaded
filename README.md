@@ -7,12 +7,13 @@
 /search -> Search<br>
 
 ## User router
-/users/edit -> Edit user<br>
-/users/remove -> Remove user<br>
+/users/:id -> See user<br>
+/users/logout -> Log out<br>
+/users/edit -> Edit MY Profile<br>
+/users/delete -> Delete MY Profile<br>
 
 ## Video router
-/videos/watch -> Watch Video<br>
-/videos/edit -> Edit Video<br>
-/videos/delete -> Delete Video<br>
-/videos/comments -> Comment on a video<br>
-/videos/comments/delete -> Delete A Comment of a Video<br>
+/videos/:id -> See Video<br>
+/videos/upload -> Upload Video<br>
+/videos/:id/edit -> Edit Video<br>
+/videos/:id/delete -> Delete Video<br>
